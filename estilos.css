@@ -1,0 +1,56 @@
+/* Ajustes generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 10px auto;
+    font-family: Arial, sans-serif; /* Cambia la fuente si lo prefieres */
+}
+
+/* Contenedor del contador */
+.contador {
+    margin: 0 auto; /* Centra el contenido en la página */
+    padding-bottom: 100px;
+}
+
+/* Título del contador */
+.titulo {
+    font-size: 85px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Estilo del número del contador */
+.text {
+    font-size: 85px;
+    margin-bottom: 10px;
+    color: #333; /* Puedes ajustar el color según prefieras */
+}
+
+/* Botones */
+button {
+    font-size: 25px; /* Tamaño de fuente de los botones */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    margin: 5px; /* Espaciado entre botones */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Colores de los botones específicos */
+.incrementar {
+    background-color: #268eb8; /* Color verde para el botón de incrementar */
+}
+
+.reset {
+    background-color: #444b4e; /* Color amarillo para el botón de reset */
+}
+
+.disminuir {
+    background-color: #070322; /* Color rojo para el botón de disminuir */
+}
